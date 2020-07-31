@@ -1,0 +1,104 @@
+#conjunto{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+figure{
+    display:flex;
+    flex-direction: row;
+    /* justify-content: center;
+    align-items: center; */
+    border-radius: 5px 0px 25px 0px;
+    margin: 10px;
+    width: 650px;
+    height:200px;
+    background-color: rgb(110, 109, 109);
+}
+figure:hover{
+    transition: background-color 1.5s;
+    background-color: rgb(59, 59, 59);
+}
+#datos{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    margin-left: 20px;
+    margin: 10px 10px 0px 10px;
+}
+#name{
+    border-radius: 2px;
+    margin: 10px 0px;
+    font-size:20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(110, 109, 109);
+    padding: 3px;
+}
+
+#gender{
+    /* width:70%; */
+    margin: 5px 0px 0px 0px;
+    font-size: 10px;
+    position: relative;
+    top:-15px;
+    right:-3px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+}
+#city{
+    border-radius: 2px;
+    margin: 10px 0px;
+    font-size:20px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    padding: 3px;
+}
+#street{
+    border-radius: 2px;
+    margin: 10px 0px;
+    font-size:18px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    position: relative;
+    top:-25px;
+    right: -2px;
+
+}
+
+#contacto{
+    display:flex;
+    justify-content: space-between;
+    position:relative;
+    bottom: 20px;
+    background-color: rgb(110, 109, 109);
+    padding: 3px;
+    border-radius: 2px;
+}
+#email{
+    text-align: center;
+    border-radius: 2px;
+    margin: 5px 0px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+#cell{
+    text-align: center;
+    border-radius: 2px;
+    margin: 5px 40px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+img{
+    width: 200px;
+    height: auto;
+    border-radius: 5px 0px 25px 0px;
+}
+
+.simGender{
+    width: 5px;
+}
