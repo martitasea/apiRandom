@@ -1,0 +1,232 @@
+/* ---------------------------ESTILOS GENERALES-------------------------- */
+body{
+    background-color: lightgrey;
+    width: 1084px;
+    position: relative;
+    left: 22vw;
+}
+a{
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'Crimson Text', serif;
+    /* font-family:Arial, Helvetica, sans-serif; */
+
+}
+a:hover{
+    color:white;
+}
+h1{    
+    /* font-family: 'Caveat', cursive;  */
+    font-family: 'Parisienne', cursive;
+    font-size: 50px;
+    margin: 0px 1vw 10px 1vw;
+    text-align: center;
+    
+}
+h2{
+    /* font-family: 'Caveat', cursive;  */
+    font-family: 'Parisienne', cursive;
+    font-size: 35px;
+    /* background-color: tomato; */
+}
+p{
+    /* font-family:Arial, Helvetica, sans-serif; */
+    font-family: 'Crimson Text', serif;
+    font-size: 22px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    /* background-color: red; */
+}
+.separacion{
+    width: 884px;
+    display:block;
+    margin: auto;
+}
+/* ---------------------------HEADER--------------------------- */
+header{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+header h1{
+    margin-top: 10px;
+}
+header div:first-of-type{
+    display: flex;
+    justify-content: center;
+    
+}
+header div:nth-child(2){
+    display:flex;
+    justify-content:center;
+}
+#formulario{
+    display: flex;
+    background-color:black;
+    position: absolute;
+    right: 6vw;
+    padding: 7px;
+    border-radius: 3px;
+    color:white;
+}
+#formulario img{
+    width: 15px;
+    margin: 2px;
+}
+
+#formulario:hover{
+        background-color:rgb(88, 5, 88);
+}
+header img{
+    width: 150px;
+}
+header nav a{
+    padding: 10px 
+}
+#titulo{
+    /* font-family: 'Caveat', cursive; */
+    font-family: 'Parisienne', cursive;
+    font-size: 50px;
+    margin-top: 10px; 
+}
+/* ------------------------------MAIN------------------------------ */
+main{
+    position: relative;
+    top: 20px;
+}
+/* ------------------------Primera parte---------------h1+div+figure------------ */
+#primeraParte{
+    /* background-color: blue; */
+    display:flex;
+    flex-direction: column;
+    /* border:white 5px dotted; */
+    padding: 25px;
+}
+.contenido{
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+}
+#primeraParte figure{
+    margin: 0px 1vw 0px 1vw;
+    /* background-color: blue; */
+}
+#primeraParte img{
+    width: 250px;
+}
+.textoUno{
+    display:flex;
+    flex-direction:column;
+    text-align: justify;
+    /* background-color: rgb(35, 89, 189); */
+    /* margin: 0px 1vw 0px 1vw; */
+}
+#primeraParte p{
+    margin: 0px 1vw 0px 1vw;
+}
+/* ------------------------Segunda parte-------------h1+div+figure-------------- */
+#segundaParte{
+    display: flex;
+    flex-direction: column;    
+    /* background-color: green; */
+    /* border:white 5px dotted; */
+    padding: 25px;
+}
+.contenido{
+    display:flex;
+    flex-direction:row;
+    /* justify-content: baseline; */
+    /* background-color: lime; */
+    /* margin: 0px 1vw 0px 1vw; */
+}
+.textoDos{
+    display:flex;
+    flex-direction:column;
+    text-align: justify;
+    /* background-color: rgb(35, 89, 189); */
+    /* margin: 0px 1vw 0px 1vw; */
+}
+#segundaParte figure{
+    margin: 0px 1vw 0px 1vw;
+    /* background-color: blue; */
+    width: 300px;
+}
+#segundaParte figure img:hover{
+    width: 300px;
+}
+#segundaParte div article{
+    margin: 5px 1vw 0px 1vw;
+}
+figcaption{
+    font-family: 'Crimson Text', serif;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 20px;
+}
+/* ---------------------------FOOTER--------------------------- */
+footer{
+    margin-top: 35px;
+    background-color: black;
+    height: 10vh;
+    border-radius: 10px;
+}
+footer nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer nav a{
+    margin: 20px;
+    color: white;
+}
+footer nav a:hover{
+    margin: 20px;
+    color: violet;
+}
+/*------------------------------FORMULARIO------------------------------ */
+form{
+    font-family: 'Crimson Text', serif;
+}
+.button{
+    border-radius: 3px;
+    background-color: rgb(88, 5, 88);
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+    margin: 10px 20px 10px 0px;
+}
+.button:hover{
+    border-radius: 3px;
+    color:white;
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+    margin: 10px 20px 10px 0px;
+}
+legend{
+    font-family: 'Parisienne', cursive;
+    font-size: 28px;
+    margin: 10px;
+}
+fieldset{
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+}
+#usuario, #contraseña{
+    position: absolute;
+    left: 160px;
+}
+
+
+#anim {
+    animation-name: colorful;
+    animation-duration: 3s;
+  }
+  
+  @keyframes colorful {
+    0% {
+      background-color: blue;
+    }
+    100% {
+      background-color: yellow;
+    }
+  }

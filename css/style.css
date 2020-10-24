@@ -102,3 +102,9 @@ img{
 .simGender{
     width: 5px;
 }
+p.tit{
+    font-size:55px;
+    text-align: center;
+    margin: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+}
